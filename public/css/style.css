@@ -1,0 +1,105 @@
+:root {
+    --yellow : #EAC926;
+    --blue : #03264C;
+    --lightBlue : #1259c3;
+    --darkGrey : #666;
+    --lightGrey : #ebebeb;
+    --green : #39b54a;
+    --font-primary : "Roboto", sans-serif;
+    --paragraph : 12px;
+    --title : 24px;
+    --prices : 18px;
+    --descriptions : 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    display:none;
+}
+
+header {
+    background-color: var(--yellow);
+    padding-bottom: 20px;
+    font-size: var(--paragraph)
+}
+
+.logo {
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 150px;
+}
+
+.dues {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-bar input {
+margin-left: 15px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-15-2 {
+    padding-bottom: 15px;
+}
+
+header .burger-menu {
+color: white;
+width: 35px;
+height: 35px;
+background-color: var(--lightBlue);
+border-radius: 5px;
+text-align: center;
+margin: 0 auto;
+}
+
+header .burger-menu i {
+    margin-top: 9px;
+}
+
+body {
+    font-family: var(--font-primary);
+}
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+footer p {
+    font-size: var(--paragraph);
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px 30px 30px 30px;
+}
+
+footer h5 {
+    font-size: var(--descriptions);
+}
+
+footer i {
+    font-size: 2em;
+    color: var(--lightBlue);
+    margin-bottom: 10px;
+}
+
+footer .copy {
+font-size: var(--paragraph);
+color: darkgray;
+text-align: left;
+padding-left: 15px;
+}
